@@ -78,7 +78,8 @@
     "rxjs": "~7.5.5",
     "swagger-ui": "^4.15.0",
     "tslib": "^2.0.0",
-    "zone.js": "^0.11.8"
+    "zone.js": "^0.11.8",
+    "ng-multiselect-dropdown": "1.0.0-beta.19"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.10",
@@ -100,5 +101,10 @@
     "ts-node": "~10.8.1",
     "tslint": "~6.1.0",
     "typescript": "~4.8.4"
+  },
+  "overrides": {
+    "@valtimo/components": {
+      "ng-multiselect-dropdown": "1.0.0-beta.19"
+    }
   }
 }
