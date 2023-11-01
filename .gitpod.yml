@@ -1,3 +1,4 @@
 image: gitpod/workspace-node-lts
 tasks:
   - command: sudo apt install -y gettext
+  - command: npm install --legacy-peer-deps
